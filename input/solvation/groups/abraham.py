@@ -285,7 +285,7 @@ entry(
     label = "CtOt",
     group = 
 """
-1 * Ct   u0 {2,T}
+1 * C2tc u0 {2,T}
 2   O4tc u0 {1,T}
 """,
     solute = SoluteData(
@@ -513,7 +513,7 @@ entry(
     group = 
 """
 1 * O4tc u0 {2,T}
-2   Ct u0 {1,T}
+2   C2tc u0 {1,T}
 """,
     solute = SoluteData(
         S = 0.37,
