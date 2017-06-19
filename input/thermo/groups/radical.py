@@ -8131,7 +8131,7 @@ entry(
     label = "CsJ2_singlet",
     group = 
 """
-1 * Cs u0 p1
+1 * C2s u0 p1
 """,
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
@@ -8146,7 +8146,7 @@ entry(
     label = "CH2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   H  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8168,7 +8168,7 @@ entry(
     label = "CsJ2_P_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   C  u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8185,7 +8185,7 @@ entry(
     label = "CsCsJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cs u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8202,7 +8202,7 @@ entry(
     label = "CCJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cs u0 {1,S} {4,S} {5,S} {6,S}
 3   H  u0 {1,S}
 4   H  u0 {2,S}
@@ -8222,7 +8222,7 @@ entry(
     label = "PhCH_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cb u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8244,7 +8244,7 @@ entry(
     label = "AllylJ2_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   Cd u0 {1,S}
 3   H  u0 {1,S}
 """,
@@ -8261,7 +8261,7 @@ entry(
     label = "CsJ2_S_singlet",
     group = 
 """
-1 * Cs u0 p1 {2,S} {3,S}
+1 * C2s u0 p1 {2,S} {3,S}
 2   C  u0 {1,S}
 3   C  u0 {1,S}
 """,

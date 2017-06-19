@@ -285,8 +285,8 @@ entry(
     label = "CtOt",
     group = 
 """
-1 * C2tc u0 {2,T}
-2   O4tc u0 {1,T}
+1 * C2tc u0 p1 c-1 {2,T}
+2   O4tc u0 p1 c+1 {1,T}
 """,
     solute = SoluteData(
         S = -0.085,
@@ -512,8 +512,8 @@ entry(
     label = "OtCt",
     group = 
 """
-1 * O4tc u0 {2,T}
-2   C2tc u0 {1,T}
+1 * O4tc u0 p1 c+1 {2,T}
+2   C2tc u0 p1 c-1 {1,T}
 """,
     solute = SoluteData(
         S = 0.37,
@@ -1163,7 +1163,7 @@ L1: R
             L4: CdsH
             L4: Cds-noH
         L3: Ct
-            L4: CtOt
+        L3: CtOt
         L3: Cdd
         L3: Cb
             L4: Cb-H
