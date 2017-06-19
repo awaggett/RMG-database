@@ -8116,7 +8116,7 @@ entry(
     label = "CJ2_singlet",
     group = 
 """
-1 * C u0 p1
+1 * C2d u0 p1
 """,
     thermo = u'CH2_singlet',
     shortDesc = u"""""",
@@ -8278,7 +8278,8 @@ entry(
     label = "CdJ2_singlet",
     group = 
 """
-1 * [Cd,CO] u0 p1
+1 * C2d u0 p1 {2,D}
+2   O2d u0 p2 {1,D}
 """,
     thermo = u'CCdJ2_singlet',
     shortDesc = u"""""",
